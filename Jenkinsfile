@@ -6,7 +6,7 @@ node {
     sh "${GRADLE_HOME}/bin/gradle tasks"
 
     stage('prep') {
-        git url: 'https://github.com/cloudacademy/devops-webapp.git'                
+        git url: 'https://github.com/manojmcn/devops-webapp.git'                
     }
 
     stage('build') {
